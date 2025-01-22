@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* This Codes for Header Section */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0 30px 0;
+}
+
+.category {
+    position: relative;
+    background-color: #ffffff;
+    padding: 0px 30px 0 40px; ;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 275px;
+    margin-bottom: 50px;
+}
+.category h1{
+    font-size: 33px;
+}
+
+.category img {
+    width: 80px;
+    height: 100%;
+    position: absolute;
+    left:75%;
+    bottom: -20px;
+}
+.wide-image{
+    width: 135px !important;
+    left: 60% !important;
+}
+
+.category p {
+    color: gray;
+    font-size: 14px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+/* This Code For Audio & Video Section */
+.audio-video-section, .home-appliances-sectoin, .air-conditioner-sectoin {
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding: 20px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.audio-video-section h2, .home-appliances-sectoin h2, .air-conditioner-sectoin h2 {
+    display: inline;
+    margin: 0px 20px;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.product {
+    padding: 15px;
+    border-radius: 5px;
+    width: 23%;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.stars {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.stars i {
+    font-size: 1.5em;
+    color: #f39c12;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+
+
+.product h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+
+}
+
+.product p {
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #525151;
+}
+
+.sale .sale-tag {
+    background-color: #ffffff;
+    color: gray;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 25px;
+    position: absolute;
+    left: 12%;
+    top: 8%;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
