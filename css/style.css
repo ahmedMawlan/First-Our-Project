@@ -1,0 +1,224 @@
+
+
+
+.custom-navbar{
+    background-color: #0173f0;
+    color: #ffffff;
+}
+.custom-navbar-b{
+    background-color: #0769da;
+    color: #ffffff;
+}
+.custom-navbar .nav-link {
+    color: white !important; /* يجعل لون الكتابة أبيض */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #cccccc !important; /* يضيف لون عند التمرير على الروابط */
+}
+
+.circle::after {
+    content: '0'; /* الرقم داخل الدائرة */
+    color: #ffffff;
+    position: relative;
+    top: -10px;
+    
+}
+
+/* post-navbar */
+
+.post-navbar{
+    background-image: url(../img/electronic-store-hero-image.jpg); /* تحديد الصورة */
+    background-size: 150% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+}
+.post-navbar-cont{
+    width: 444px;
+    height: 475px;
+    
+}
+/* // post-navbar // */
+
+/* content */
+.w-90{
+    width: 90% !important;
+    margin: auto; 
+    background-color: white;
+    
+}
+.content{
+    
+}
+.content-parents-w-90{
+    position: relative;
+}
+/* elementor */
+.elementor-parents{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #bebdbd;
+    background-color: #ffffff;
+
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: -100px;
+    
+}
+.elementor-children{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.elementor-children-fas {
+    display: flex;
+    align-items: center;
+    color: #0173f0;
+    font-size: 25px;
+}
+.elementor-children-text {
+    margin: 10px;
+}
+.elementor-children-text h6{
+    margin: 0;
+}
+.elementor-children-text p{
+    margin: 0;
+}
+/* elementor */
+/* grid-1 */
+.container-grid-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 أعمدة في كل صف */
+    gap: 20px; /* مسافة بين الأعمدة */
+    padding: 20px; /* مسافة داخلية للحاوية */
+    margin-top: 50px;
+    padding-top: 50px;
+    border: 1px solid #bebdbd;
+
+}
+
+.item {
+    text-align: center; /* توسيط النصوص داخل الأعمدة */
+    
+    padding-block: 50px; /* مسافة داخلية لكل عنصر */ 
+    
+    margin: 20px;  
+}
+
+.item img {
+    width: 100%; /* عرض الصورة يكون بالكامل داخل العمود */
+    object-fit: cover; /* لضمان ظهور الصورة بشكل جيد */
+    border-radius: 8px; /* زوايا دائرية للصورة */
+}
+
+.item h3 {
+    margin: 10px 0 5px; /* مسافة بين العنوان وباقي المحتوى */
+    font-size: 18px; /* حجم الخط للعنوان */
+    color: #333; /* لون النص */
+}
+
+.item p {
+    margin: 0; /* إزالة المسافات الافتراضية */
+    font-size: 14px; /* حجم النص */
+    color: #666; /* لون النص */
+}
+/* // grid-1 // */
+/* container-flex */
+
+.container-flex {
+    display: flex; /* جعل الحاوية الرئيسية تستخدم Flexbox */
+    gap: 20px; /* مسافة بين الديفات الفرعية */
+    justify-content: center; /* توسيط الديفات الفرعية أفقياً */
+    align-items: center; /* توسيط المحتوى داخلها عمودياً */
+    padding: 20px; /* مسافة داخلية للحاوية */
+    
+}
+
+.inner-div {
+    display: flex; /* جعل الديفات الفرعية تستخدم Flexbox */
+    align-items: center; /* توسيط الصورة والنص أفقياً */
+   
+    padding: 10px; /* مسافة داخلية */
+   
+}
+
+.inner-div img {
+    width: 100%; /* عرض الصورة يكون بنفس عرض الديف */
+    height: auto; /* ارتفاع الصورة يتغير تلقائياً */
+
+}
+
+/* // container-flex // */
+
+/* container-product */
+
+
+
+.container-product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 أعمدة */
+    gap: 20px; /* مسافة بين المنتجات */
+}
+
+.product {
+    padding: 15px; 
+    position: relative; /* يجعل الديف الرئيسي مرجعاً للموقع النسبي */
+}
+.sale-badge {
+    position: absolute;
+    top: 30px; /* مسافة 10 بكسل من الأعلى */
+    left: 30px; /* مسافة 10 بكسل من اليسار */
+    background-color: rgb(255, 255, 255); /* لون الخلفية */
+    color: rgb(0, 0, 0); /* لون النص */
+    font-size: 12px; /* حجم النص */
+    padding: 5px 10px; /* مسافة داخلية حول النص */
+    border-radius: 10px; /* زوايا دائرية */
+    font-weight: bold; /* خط عريض */
+    box-shadow: 5px 5px 5px;
+}
+
+.product img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.stars {
+    color: gold; /* لون النجوم الذهبية */
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: flex;
+    
+    gap: 10px;
+    
+}
+
+.original-price {
+    font-size: 14px;
+    color: #aaa; /* لون باهت */
+    text-decoration: line-through; /* خط على السعر الحقيقي */
+}
+
+.discount-price {
+    font-size: 16px;
+    /* color: #d9534f; لون السعر بعد الخصم */
+    font-weight: bold;
+}
+
+/* // container-product // */
+
+/* content */
